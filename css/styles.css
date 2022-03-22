@@ -17,6 +17,7 @@ header {
     top: 10px;
     background-color: rgba(230, 255, 230, .95);
 }
+
 nav {
     text-align: center;
     /* center the nav bar in the header */
@@ -49,4 +50,14 @@ li a {
     /* move up to fit */
     position: relative;
     bottom: 20px;
+}
+.column {
+    /* box-sizing: border-box; */
+    float: left;
+    width: 33%;
+    background-color: slateblue;
+    border: 1px solid black;
+}
+section:after {
+    clear: both;
 }
